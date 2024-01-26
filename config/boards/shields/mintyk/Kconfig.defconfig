@@ -1,0 +1,15 @@
+if SHIELD_MINTYK_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "MintyK"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHILED_MINTYK_LEFT || SHIELD_MINTYK_RIGHT
+
+  config ZMK_SPLIT
+      default y
+endif

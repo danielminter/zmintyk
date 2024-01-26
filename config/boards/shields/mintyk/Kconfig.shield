@@ -1,0 +1,5 @@
+config SHIELD_MINTYK_LEFT
+    def_bool $(shields_list_contains, mintyk_left)
+
+config SHIELD_MINTYK_RIGHT
+    def_bool $(shields_list_contains, mintyk_right)
